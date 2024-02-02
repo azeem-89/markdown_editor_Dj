@@ -13,7 +13,7 @@ git clone https://github.com/your-username/markdown-editor-django.git
 
 ## Navigate to the project directory:
 
-cd markdown-editor-django
+cd md-editor-project
 
 ## Create and activate a virtual environment (optional but recommended):
 
