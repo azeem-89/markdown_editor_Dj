@@ -1,0 +1,15 @@
+<!-- markdown_editor_app/templates/markdown_editor.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Markdown Editor</title>
+</head>
+<body>
+    <h2>Create a New Document</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Preview</button>
+    </form>
+</body>
+</html>
